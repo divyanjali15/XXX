@@ -1,0 +1,130 @@
+soc-security operation center
+blue team-security operation(has peak position)
+red team-(legal)attackers
+purple=red+blue(combination of all red and blue)
+
+nmap
+-scan an application
+-scan an ip address
+-enumeration
+ftp protcol is used to download files
+-to know about ports that are open or close
+
+
+enumeration
+-version of port numbers
+(vunlerable or not)
+
+both are illegal
+
+kali linux
+run virtual box
+run kali linux
+enter user n pass
+open terminal
+
+scanning is 3 types
+port
+network
+vunerable
+
+for port n network we require
+url or ip address
+
+network:
+
+now open firfox open website
+now use command nmap website name
+and for ip address
+open nslookup enter website name
+copy ip address
+ctrl shift c
+then use nmap ip...
+output is generated
+
+ctrl c to end command
+
+to random check nmap ipadress-(randomrange = greater than specified one)
+
+to scan the entire network
+../24
+(press enter to know completed %)
+
+
+port scanning:
+
+nmap -p(it is telling nmap that it is giving input as port number) portnumber IP
+nmap -p 21,80,443(mutliple ports) IP
+nmap -p- Ip (total)
+nmap -p 21-443(range) Ip(address)
+
+scaning is to find vunerablities
+
+ignored states - blocked
+
+wireshark:
+in a network data is transfered in form of packets
+to check this wireshark which is a network analyser is used
+
+wireshark can't decode voice or in some applications it can decode
+so we need to be safe while connecting it must be https protocol
+https is safe
+
+
+http://testphp.vulnweb.com/login.php
+
+login with test n test
+update it
+open Ws
+then click on icon
+enter
+http.request.method=="POST"
+
+stop in wire shark
+
+brupsite:
+in connection settings
+
+1.to make compatible with brupsuite we are going to change manual proxy
+8080 port to 8081
+127.0.0.1
+2.CA certificate of brupsuite need to be importeed to firefox
+
+we can apply to both http n https
+
+1. in firefox
+ click 3 lines
+go for settings
+ change manual proxy and change port
+2.http://burp/
+click CA to download certificate
+thn open firefox and open view certifivates
+import certifcate
+while importing dont click ok instead click to tick marks
+
+in brup suite proxy http history
+
+insecure direct object reference-idor
+
+in this to register we are going to use tempmail
+
+go to brupsuite
+intercept is off - click on it
+and host must have shoprex else forwad it(intercept off)
+after on reload it
+
+
+manipulate ssid and forward
+
+thn details will be changes
+
+
+
+
+
+
+
+
+
+
+
